@@ -4,8 +4,12 @@
   "description": "The hello world of electron",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "author": "cornprincess",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.7"
+  }
 }
